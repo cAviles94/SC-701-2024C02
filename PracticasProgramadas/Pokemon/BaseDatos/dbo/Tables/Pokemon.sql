@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Pokemon]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [Nombre] NCHAR(30) NULL
+)
